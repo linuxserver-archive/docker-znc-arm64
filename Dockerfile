@@ -67,7 +67,8 @@ RUN \
 # install runtime packages
 RUN \
  apk add --no-cache \
-	icu-libs
+	icu-libs \
+	openssl
 
 # add local files
 COPY /root /
