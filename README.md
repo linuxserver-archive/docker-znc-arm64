@@ -84,4 +84,5 @@ To log in to the application, browse to https://<hostip>:6501.
 
 ## Versions
 
++ **07.01.17:** Add ca-certificates package, resolve sasl issues.
 + **07.12.16:** Initial Release.
