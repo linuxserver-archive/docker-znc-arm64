@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: http://wiki.znc.in/ZNC
+[hub]: https://hub.docker.com/r/lsioarmhf/znc-aarch64/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/znc-aarch64
 [![](https://images.microbadger.com/badges/version/lsioarmhf/znc-aarch64.svg)](https://microbadger.com/images/lsioarmhf/znc-aarch64 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/znc-aarch64.svg)](http://microbadger.com/images/lsioarmhf/znc-aarch64 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/znc-aarch64.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/znc-aarch64.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-arm64/lsioarm64-znc)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-arm64/job/lsioarm64-znc/)
-[hub]: https://hub.docker.com/r/lsioarmhf/znc-aarch64/
 
 [ZNC](http://wiki.znc.in/ZNC)  is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
 
-[![znc](http://wiki.znc.in/resources/assets/wiki.png)][zncurl]
-[zncurl]: http://wiki.znc.in/ZNC
+[![znc](http://wiki.znc.in/resources/assets/wiki.png)][appurl]
 
 ## Usage
 
